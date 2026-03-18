@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*.pkl
+*.joblib
+*.log
+.DS_Store
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Data (do not commit raw datasets)
+/data/
+/datasets/
+
+# Streamlit / app artifacts
+.streamlit/
+
+# Model artifacts (can be large)
+/models/
+

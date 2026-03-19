@@ -1,6 +1,6 @@
+# Python / tooling
 __pycache__/
 *.py[cod]
-*.pkl
 *.joblib
 *.log
 .DS_Store
@@ -11,13 +11,18 @@ __pycache__/
 .venv/
 venv/
 
-# Data (do not commit raw datasets)
+# Data (do not commit raw Kaggle CSV locally)
 /data/
 /datasets/
 
-# Streamlit / app artifacts
 .streamlit/
 
-# Model artifacts (can be large)
-/models/
+# Very large Random Forest pickles (keep out of remote if generated)
+models/binary/random_forest.pkl
+models/binary/3_random_forest.pkl
+models/multiclass/random_forest.pkl
+models/multiclass/3_random_forest.pkl
 
+*_backup.pkl
+
+.vscode/

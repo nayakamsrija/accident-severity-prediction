@@ -25,4 +25,4 @@ The raw CSV is **not** committed; download locally or use `src/data/download_dat
 
 ## Team
 
-DATA 230 — Team 5 (Spring 2025).
+Team 11
